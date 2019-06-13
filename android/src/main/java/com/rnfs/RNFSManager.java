@@ -8,11 +8,11 @@ import android.os.AsyncTask;
 import android.os.Environment;
 import android.os.StatFs;
 import android.provider.MediaStore;
-import android.support.annotation.Nullable;
+// import android.support.annotation.Nullable;
 import android.util.Base64;
 import android.util.SparseArray;
 import android.media.MediaScannerConnection;
-import android.net.Uri;
+// import android.net.Uri;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Promise;
@@ -39,6 +39,8 @@ import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+
+import javax.annotation.Nullable;
 
 public class RNFSManager extends ReactContextBaseJavaModule {
 
